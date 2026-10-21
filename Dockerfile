@@ -16,7 +16,7 @@ RUN npm run build
 
 
 ### Stage 2: final container
-FROM php:8.5-apache
+FROM php:8.5.12-apache
 
 # Install runtime & development package dependencies & php extensions
 # then clean-up dev package dependencies
