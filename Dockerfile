@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ### Stage 1: build client
-FROM node:24 AS client-builder
+FROM node:26 AS client-builder
 WORKDIR /client-builder
 
 # Install node packages
